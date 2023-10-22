@@ -1,5 +1,4 @@
 # ToDo List App
-
 ![Check Mark Gif](./static/verified.gif)
 
 A simple To-Do List application built with React that allows you to manage and organize your tasks efficiently. You can add, edit, delete tasks, and filter them by their completion status.
@@ -53,6 +52,7 @@ The app should now be running at http://localhost:3000.
 **Filter Tasks:** Use the filter buttons to view different subsets of your tasks.
 
 **Filters**
+
 You can filter your tasks based on their status:
 
 **All:** Displays all tasks.
@@ -60,6 +60,7 @@ You can filter your tasks based on their status:
 **Completed:** Displays only tasks that are completed.
 
 **Saved Lists**
+
 You can save your current task list for future reference:
 
 1. Click the "Save" button.
