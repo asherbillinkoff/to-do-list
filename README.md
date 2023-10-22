@@ -32,16 +32,20 @@ A simple To-Do List application built with React that allows you to manage and o
 
 2. Navigate to the project directory:
 
-cd your-todo-list-repo
+   ```bash
+   cd your-todo-list-repo
 
 3. Install the required dependencies:
 
-npm install
+   ```bash
+   npm install
 
 4. Start the application:
 
-npm start
-The app should now be running at http://localhost:3000.
+   ```bash
+   npm start
+
+The app should now be running at [http://localhost:3000](http://localhost:3000).
 
 ## Usage
 
@@ -51,7 +55,7 @@ The app should now be running at http://localhost:3000.
 **Toggle Completion: **Click the checkbox to mark a task as completed or uncompleted.
 **Filter Tasks:** Use the filter buttons to view different subsets of your tasks.
 
-**Filters**
+**Filters:**
 
 You can filter your tasks based on their status:
 
@@ -59,7 +63,7 @@ You can filter your tasks based on their status:
 **Active:** Displays only tasks that are not completed.
 **Completed:** Displays only tasks that are completed.
 
-**Saved Lists**
+**Saved Lists:**
 
 You can save your current task list for future reference:
 
