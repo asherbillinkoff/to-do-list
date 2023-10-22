@@ -44,30 +44,27 @@ npm install
 npm start
 The app should now be running at http://localhost:3000.
 
-Usage
-Add a Task: Type the task name in the input field at the top and press Enter to add it to your list.
-Edit a Task: Click on a task to edit its name, then press Enter to save the changes.
-Delete a Task: Click the X button next to a task to delete it.
-Toggle Completion: Click the checkbox to mark a task as completed or uncompleted.
-Filter Tasks: Use the filter buttons to view different subsets of your tasks.
-Filters
+## Usage
+
+**Add a Task:** Type the task name in the input field at the top and press Enter to add it to your list.
+**Edit a Task:** Click on a task to edit its name, then press Enter to save the changes.
+**Delete a Task:** Click the X button next to a task to delete it.
+**Toggle Completion: **Click the checkbox to mark a task as completed or uncompleted.
+**Filter Tasks:** Use the filter buttons to view different subsets of your tasks.
+
+**Filters**
 You can filter your tasks based on their status:
 
-All: Displays all tasks.
-Active: Displays only tasks that are not completed.
-Completed: Displays only tasks that are completed.
-Saved Lists
+**All:** Displays all tasks.
+**Active:** Displays only tasks that are not completed.
+**Completed:** Displays only tasks that are completed.
+
+**Saved Lists**
 You can save your current task list for future reference:
 
-Click the "Save" button.
-Enter a name for your list.
-Click OK.
-The list will be saved to your browser's local storage.
-You can also load previously saved lists:
-
-Select a list from the "Saved Lists" dropdown.
-Contributing
-Contributions to this project are welcome. Feel free to open issues and pull requests to suggest improvements or report bugs.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+1. Click the "Save" button.
+2. Enter a name for your list.
+3. Click OK.
+4. The list will be saved to your browser's local storage.
+5. You can also load previously saved lists:
++ Select a list from the "Saved Lists" dropdown.
