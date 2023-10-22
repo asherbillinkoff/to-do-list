@@ -111,7 +111,7 @@ function App(props) {
   return (
     <div className="todoapp stack-large">
       <div className="title-row">
-        <img src={checkMark} width="60px" height="60px" />
+        <img src={checkMark} width="60px" height="60px" alt="check mark gif" />
         <h1>To Do List</h1>
       </div>
       <Form addTask={addTask} />
