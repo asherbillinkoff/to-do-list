@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# ToDo List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Check Mark Gif](./static/verified.gif)
 
-## Available Scripts
+A simple To-Do List application built with React that allows you to manage and organize your tasks efficiently. You can add, edit, delete tasks, and filter them by their completion status.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Filters](#filters)
+- [Saved Lists](#saved-lists)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Add Tasks:** Easily add new tasks to your to-do list.
+- **Edit Tasks:** Click on a task to edit its name.
+- **Delete Tasks:** Remove tasks that you no longer need.
+- **Toggle Completion:** Mark tasks as completed or uncompleted.
+- **Filter Tasks:** Filter your tasks based on their status (All, Active, or Completed).
+- **Save Lists:** Save your task list to local storage for future reference.
+- **Load Saved Lists:** Load and switch between saved task lists.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository to your local machine:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/yourusername/your-todo-list-repo.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd your-todo-list-repo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the required dependencies:
 
-### `npm run eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the application:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
+The app should now be running at http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Usage
+Add a Task: Type the task name in the input field at the top and press Enter to add it to your list.
+Edit a Task: Click on a task to edit its name, then press Enter to save the changes.
+Delete a Task: Click the X button next to a task to delete it.
+Toggle Completion: Click the checkbox to mark a task as completed or uncompleted.
+Filter Tasks: Use the filter buttons to view different subsets of your tasks.
+Filters
+You can filter your tasks based on their status:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+All: Displays all tasks.
+Active: Displays only tasks that are not completed.
+Completed: Displays only tasks that are completed.
+Saved Lists
+You can save your current task list for future reference:
 
-## Learn More
+Click the "Save" button.
+Enter a name for your list.
+Click OK.
+The list will be saved to your browser's local storage.
+You can also load previously saved lists:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Select a list from the "Saved Lists" dropdown.
+Contributing
+Contributions to this project are welcome. Feel free to open issues and pull requests to suggest improvements or report bugs.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
